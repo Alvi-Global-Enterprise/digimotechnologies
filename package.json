@@ -1,0 +1,10 @@
+{
+  "name": "digimo-technologies",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Digimo Tech — static site (Framer clone, cleaned for local serving)",
+  "scripts": {
+    "start": "npx --yes serve . -p 3000",
+    "dev": "npx --yes serve . -p 3000"
+  }
+}
