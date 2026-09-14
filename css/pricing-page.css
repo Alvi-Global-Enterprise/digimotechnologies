@@ -1,0 +1,23 @@
+/* Pricing page uses the shared Framer header/footer.
+   Only layout tweaks for the injected packages block. */
+
+#pricing-root[data-digimo-pricing-shell] {
+  width: 100%;
+  background: #0d0d0d;
+  position: relative;
+  z-index: 1;
+}
+
+#pricing-root .digimo-pricing-home {
+  padding-top: 120px;
+}
+
+#pricing-root .digimo-pricing-home__intro h2 {
+  max-width: 16ch;
+}
+
+@media (max-width: 809px) {
+  #pricing-root .digimo-pricing-home {
+    padding-top: 96px;
+  }
+}
